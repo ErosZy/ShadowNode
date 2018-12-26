@@ -30,7 +30,7 @@ function isNumber(arg) {
 }
 
 function isFinite(arg) {
-  return (arg === 0) || (arg !== arg / 2);
+  return Number.isFinite(arg);
 }
 
 function isBoolean(arg) {
